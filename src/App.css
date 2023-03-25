@@ -1,0 +1,13 @@
+.AppMain{
+  background-color: rgb(218, 211, 211);
+  min-height: 100vh;
+}
+
+.bodyWrapper{
+  display: flex;
+  width: 95%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  gap: 30px;
+  margin-top: 30px;
+}

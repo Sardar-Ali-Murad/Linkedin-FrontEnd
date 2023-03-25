@@ -1,0 +1,105 @@
+.userInfoCardMain{
+    width: 300px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    height: 500px;
+
+}
+
+.cardImages{
+  position: relative;
+}
+
+.bannerImage{
+    width: 100%;
+}
+.userImage{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.userInfoCardMain .content{
+  padding: 10px;
+}
+
+.userInfoCardMain .content p{
+  font-size: 15px;
+}
+
+.userInfoCardMain .content h3,p{
+   text-align: center;
+}
+
+.userInfoCardMain .content h3{
+    margin-bottom: 10px;
+}
+
+.line{
+    width: 100%;
+    height: 2px;
+    background-color: gray;
+}
+
+.userActivityInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.userActivityInfoContainer{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+}
+
+.userActivityInfoContainer .text{
+    color: grey;
+    font-size: 15px;
+}
+
+.number{
+    color: blue;
+}
+
+.box{
+    height: 20px;
+    width: 20px;
+    background-color: pink;
+}
+
+.tryFree{
+    display: flex;
+}
+
+.premiurInfo{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.premiurInfo p {
+    color: grey;
+    font-size: 15px;
+}
+
+.tryFree{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 9px;
+    margin-bottom: 2px;
+}
+
+.tryFree p{
+    text-decoration: underline;
+}
+
+.MyItems{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}

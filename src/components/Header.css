@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+.headersMain{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+  background-color: white;
+}
+
+.headerSection1{
+    display: flex;
+    gap: 20px;
+}
+
+.linkedinImage{
+    width: 40px;
+    height: 40px;
+}
+
+.headersTextField{
+    height: 20px;
+}
+
+.headerIcons{
+    display: flex;
+    gap: 30px;
+}
+
+.headerIcon{
+    font-size: 30px;
+    color: black;
+}
+
+.singleIconContainer{
+    text-align: center;
+    cursor: pointer;
+}
+
+.muradImg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.headerFlex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.headerLine{
+    height: 100%;
+    width: 3px;
+    background-color: gray;
+}
+
+.premiur{
+    text-decoration: underline;
+    color: gray;
+    margin-top: 10px;
+}
+
+
+
+
+@media screen and (max-width:1100px) {
+    .premiur{
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:970px) {
+    .QrCode{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:800px) {
+    .textField{
+        display: none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .singleIconContainer p{
+        display: none;
+    }
+    .meDown{
+        display: none;
+    }
+    .headerIcon{
+        font-size: 26px;
+    }
+    .linkedinImage{
+        width: 30px;
+        height: 30px;
+    }
+}

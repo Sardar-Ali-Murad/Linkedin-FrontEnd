@@ -1,0 +1,90 @@
+.postMain{
+    background-color: white;
+    margin-top: 30px;
+    padding: 4px;
+    border-radius: 10px;
+    width: 600px;
+    margin-bottom: 40px;
+}
+
+.postHeaderMain img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.postHeaderMain{
+    display: flex;
+    gap: 30px;
+}
+
+.postFlex{
+    display: flex;
+    align-items: center;
+}
+
+.edited{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.postFlexConnect{
+    color: blue;
+    font-size: 20px;
+    display: flex;
+    gap: 5px;
+}
+
+.postInfoText,.postInfoDate{
+    color: grey;
+    font-size: 14px;
+}
+
+.postInfoContent{
+    margin-top: 30px;
+}
+
+.postInfoContent p{
+    color: grey;
+}
+
+.postLinks{
+    color: blue;
+    cursor: pointer;
+}
+
+.postMainImageContainer{
+    width: 100%;
+}
+.postMainImage{
+    width: 100%;
+}
+
+.postFlex{
+    display: flex;
+    gap: 4px;
+}
+
+.postFlex p{
+    color: grey;
+    font-size: 12px;
+}
+
+.postCommentsInfo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.postLine{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    height: 2px;
+    background-color: grey;
+    margin-top: 20px;
+}
+
+.uploadWrappersPost{
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}

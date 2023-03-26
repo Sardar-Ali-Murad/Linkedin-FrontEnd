@@ -1,0 +1,38 @@
+.AppMain{
+    background-color: rgb(218, 211, 211);
+    /* overflow-x: hidden; */
+    /* padding: 20px; */
+  }
+  
+  .bodyWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "u p p f";
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    gap: 30px;
+    margin-top: 30px;
+    padding: 20px;
+  }
+  
+  .user{
+    grid-area: u;
+  }
+  
+  .posts{
+     grid-area: p;
+     width: 100%;
+  }
+  
+  .feed{
+     grid-area: f;
+  }
+  
+  @media screen and (max-width:1200px) {
+    .bodyWrapper{
+      grid-template-areas:"f f f f"
+      "p p p p"
+      "u u u u"
+    }
+  }

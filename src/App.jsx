@@ -1,18 +1,20 @@
 import React from 'react'
-import {Header,UserInfoCard,UploadPost,Post}  from "./components/index"
+import {Home,User,Network,Login} from "./pages/index"
+import {BrowserRouter,Routes,Route}  from "react-router-dom"
 import "./App.css"
+
 
 const App = () => {
   return (
-    <div className='AppMain'>
-      <Header/>
-      <div className='bodyWrapper'>
-      <UserInfoCard/>
-      <div>
-         <UploadPost/>
-         <Post/>
-      </div>
-      </div>
+    <div className='mainWrapper'>
+      <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/in/user' element={<User/>}/>
+        <Route path='/network' element={<Network/>}/>
+        <Route path="/login"  element={<Login/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   )
 }

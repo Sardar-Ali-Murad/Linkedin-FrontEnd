@@ -1,0 +1,23 @@
+.manageFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.manageFlexSmall{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.manageIcon{
+    font-size: 30px;
+}
+
+.manageFlex a{
+    font-size: 20px;
+}
+

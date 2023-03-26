@@ -1,0 +1,64 @@
+.connectsMain{
+    padding: 10px;
+}
+
+.connectGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(10rem,1fr));
+    gap: 10px;
+}
+
+.connectImages{
+    position: relative;
+}
+
+.connectUser{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* z-index: 100000; */
+    top: 20px;
+    bottom: -100px;
+    top: -25px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.connectBanner{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.connectCard{
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+}
+
+.connectFlexMain{
+    display: flex;
+    flex-direction: column;
+     gap: 40px;
+     align-items: center;
+     padding: 10px;
+}
+
+.connectFlexMain a{
+    font-size: 13px;
+}
+
+.flexConnectSmall{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    margin-left: 50%;
+    transform: translateX(-40%);
+    width: 100%;
+}
+
+.connectFlexMain h4 {
+    align-items: center;
+}

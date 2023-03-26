@@ -1,0 +1,50 @@
+.authMain {
+  width: 80%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  /* justify-content: space-between; */
+  margin-top: 60px;
+  overflow-x: hidden;
+  gap: 50px;
+}
+
+.authContent h4 {
+  font-size: 55px;
+  font-weight: 100;
+  color: rgb(221, 180, 180);
+}
+
+.loginForget {
+  color: blue;
+  font-weight: bold;
+  margin-top: 30px !important;
+}
+
+.loginForget:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.loginBtns {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.loginImage{
+    width: 100%;
+}
+
+.loginImageWrapper{
+    width: 100%;
+    flex: 1;
+}
+
+@media screen and (max-width:900px){
+    .authMain{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.networkMain{
+    margin-top: 30px;
+    width: 90%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+     gap: 20px;
+}
+
+.manageNetwork{
+   flex: 1;
+}
+
+
+.connectNetwork{
+    flex: 2;
+}
+
+@media screen and (max-width:700px) {
+    .networkMain{
+        flex-direction: column;
+    }
+}

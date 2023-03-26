@@ -1,13 +1,14 @@
 .UserInfoCard{
     background-color: white;
-    width: 600px;
     padding: 10px;
     border-radius: 10px;
+    width: 96%;
 }
 
 .writePost{
     display: flex;
     gap: 20px;
+    width: 100%;
 }
 .writePost img {
     width: 60px;
@@ -31,6 +32,7 @@
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 10px;
+    cursor: pointer;
 }
 
 .uploadWrappersSingle{
@@ -58,3 +60,16 @@
 .event,.article{
     color: brown;
 }
+
+.dialogLine{
+    width: 100%;
+    background-color: grey;
+    height: 2px;
+}
+
+
+  @media screen and (max-width:1200px) {
+    .articleWrapper{
+        display: none;
+    }
+  }

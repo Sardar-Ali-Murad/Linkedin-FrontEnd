@@ -1,0 +1,24 @@
+.analyticsMain{
+   padding: 30px; 
+   margin-top: 20px;
+}
+.analyticsWrapper h4{
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.analyticsWrapper{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.userInfoCommonFlex{
+    display: flex;
+    gap: 20px;
+
+}
+
+.icon{
+    font-size: 20px;
+}

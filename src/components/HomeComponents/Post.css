@@ -3,8 +3,9 @@
     margin-top: 30px;
     padding: 4px;
     border-radius: 10px;
-    width: 600px;
+    /* width: 600px; */
     margin-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .postHeaderMain img{
@@ -87,4 +88,10 @@
     width: 80%;
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+@media screen and (max-width:1200px) {
+    .writeArticleWrapper{
+        display: none;
+    }
 }

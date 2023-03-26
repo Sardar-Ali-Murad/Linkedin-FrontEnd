@@ -6,6 +6,7 @@ import {BsPeople}  from "react-icons/bs"
 import {BsNewspaper}  from "react-icons/bs"
 import {BsBagCheck}  from "react-icons/bs"
 import "./LoginHeader.css"
+import { Link } from "react-router-dom";
 
 
 const Headers = () => {
@@ -13,9 +14,11 @@ const Headers = () => {
   return (
     <div className="headersMain">
       {/*  */}
+      <Link to="/">
       <div className="headerSection1">
         <img src={Linkedin} className="linkedinImage" />
       </div>
+      </Link>
 
       {/*  */}
       <div className="headerIcons">

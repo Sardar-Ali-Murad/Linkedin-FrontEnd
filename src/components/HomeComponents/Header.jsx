@@ -163,9 +163,11 @@ const Headers = () => {
             <AiFillCaretDown />
           </div>
         </div>
+        <Link to="/login">
         <p className="premiur">
-          Try Premiur for <br /> free
+           Try Premiur For <br/> Free
         </p>
+        </Link>
         {/*  */}
       </div>
       {/*  */}
